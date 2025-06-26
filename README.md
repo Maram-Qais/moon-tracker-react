@@ -1,12 +1,45 @@
-# React + Vite
+# 🌙 Celestia – Moon Phase Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully animated moon phase tracker with spiritual, astronomical, and calendar features. Built using React and fully bilingual (English / Arabic).
 
-Currently, two official plugins are available:
+## 🌐 Live Demo  
+[🔗 View Live](https://moon-tracker-react.vercel.app) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🌘 Real-time moon phase calculation (using SunCalc)
+- 🗓 Interactive monthly moon calendar
+- 🔮 Detailed info per moon phase (history, spiritual, astronomy)
+- 🌐 Language support: English & Arabic
+- 🌌 Glowing animated UI with dark celestial aesthetic
+- ⚡ Fully responsive, mobile-first design
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- React.js
+- Tailwind CSS
+- i18next (for multilingual)
+- SunCalc (moon phase calculation)
+- React Router
+- Vite (for fast builds)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+src/
+├── components/ // Navbar, Footer, Loader, etc.
+├── pages/ // Home, MoonCalendar, MoonInfo, NotFound
+├── locales/ // en.json, ar.json (i18n translations)
+├── styles/ // Animations and calendar visuals
+
+
+## 🧪 Run Locally
+
+Make sure you have Node.js installed, then:
+
+```bash
+git clone https://github.com/Maram-Qais/moon-tracker-react.git
+cd moon-tracker-react
+npm install
+npm run dev
+```
+
+This project is open-source. You can use it, learn from it, or build on top of it.
+
+
