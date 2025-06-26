@@ -14,7 +14,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import SunCalc from "suncalc";
-import "../styles/calendar.css";
+import "../styles/Calendar.css";
 
 function MoonCalendar() {
   const { i18n, t } = useTranslation();
