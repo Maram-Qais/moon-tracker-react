@@ -1,0 +1,191 @@
+{
+  "home": "Home",
+  "calendar": "Calendar",
+  "phase": "Phases",
+  "nextFullMoon": "The NEXT FULL MOON is",
+  "date": "June 11, 2025",
+  "time": "3:44am EDT",
+  "description": "The upcoming Full Moon will be in",
+  "days": "days",
+  "track": "Track the Moon Phases",
+  "moonCalendarTitle": "🌙 Moon Phase Calendar - {{month}} {{year}}",
+  "weekdays": ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+  "phasesName": {
+    "new": "New Moon",
+    "waxingCrescent": "Waxing Crescent",
+    "firstQuarter": "First Quarter",
+    "waxingGibbous": "Waxing Gibbous",
+    "full": "Full Moon",
+    "waningGibbous": "Waning Gibbous",
+    "lastQuarter": "Last Quarter",
+    "waningCrescent": "Waning Crescent"
+  },
+  "illumination": "{{percent}}% Illumination",
+  "prevMonth": "Previous Month",
+  "nextMonth": "Next Month",
+  "moonInfo": {
+    "prev": "Previous",
+    "next": "Next",
+    "history": "History",
+    "spiritual": "Spiritual Significance",
+    "astronomy": "Astronomical Significance",
+    "qna": "Q & A",
+    "phases": {
+      "newMoon": {
+        "emoji": "🌑",
+        "name": "New Moon",
+        "desc": "0% illuminated",
+        "info": "Illumination: 0%; invisible from Earth; marks start of lunar cycle.",
+        "history": "From Sumerian temple rites to Babylonian calendars, the New Moon (called “hilal” in Arabic) kicked off each lunar month. In ancient Israel, it was a state holiday (Rosh Ḥodesh) with special sacrifices, and in East Asia it marked the start of the lunar New Year festival.",
+        "spiritual": "Considered the ultimate blank slate—rituals involve meditative intention-setting, planting literal seeds, and drawing sigils. In modern witchcraft you might brew a “new moon tea” with mugwort and rosemary to amplify your goals.",
+        "astronomy": "Occurs at exact conjunction when the Moon and Sun share ecliptic longitude. No part of the lunar surface is illuminated except during a solar eclipse. Synodic cycle is ~29.53 days.",
+        "faqs": [
+          {
+            "q": "Why can’t I see it?",
+            "a": "At conjunction the Moon’s dark side faces us. You only glimpse it during a solar eclipse when it crosses the Sun’s disk."
+          },
+          {
+            "q": "How often does the New Moon occur?",
+            "a": "About every 29.5 days—the length of a synodic month—when the Moon returns to conjunction with the Sun."
+          }
+        ]
+      },
+      "waxingCrescent": {
+        "emoji": "🌒",
+        "name": "Waxing Crescent",
+        "desc": "1–49% illuminated",
+        "info": "Visible low in western sky after sunset; illumination rising.",
+        "history": "Greco-Roman farmers noted the first sliver to plan spring planting; medieval Islamic astronomers tracked the crescent (“hilal”) sightings to set Ramadan’s start. In coastal Asia, fishermen read its height to time tides.",
+        "spiritual": "A phase of gestation—common rituals include charging crystals on a windowsill and writing affirmations for growth. Tarot spreads focus on “what’s sprouting” in your life.",
+        "astronomy": "Visible 1–6 days after New Moon; sunlight grows from ~1% up to ~50%. Best seen low in the west just after sunset, often via binoculars if very thin.",
+        "faqs": [
+          {
+            "q": "Does weather affect it?",
+            "a": "Yes—haze, clouds, and low horizon visibility can hide that thin sliver; you need a clear western sky just after sunset."
+          },
+          {
+            "q": "How long does the Waxing Crescent phase last?",
+            "a": "Roughly 3–5 days, as the illuminated portion grows from about 1% to nearly 50%."
+          }
+        ]
+      },
+      "firstQuarter": {
+        "emoji": "🌓",
+        "name": "First Quarter",
+        "desc": "50% illuminated",
+        "info": "Rises at midday, sets at midnight; half-lit, good for observation.",
+        "history": "On Roman calendars the First Quarter heralded market days; half-moon votive offerings to Luna were found at Pompeii’s temple of Diana. Indigenous North Americans used it to split winter chores.",
+        "spiritual": "Action-packed—rituals focus on cutting ties: burn paper symbols of fear, then bury the ashes. Physically tackle a “next step” project to honor its dynamic energy.",
+        "astronomy": "Occurs at ~90° elongation; exactly half the disk is lit. The terminator casts sharp shadows—ideal for telescopic detail—rises at noon, sets at midnight.",
+        "faqs": [
+          {
+            "q": "Why “quarter”?",
+            "a": "It marks one-quarter of the way through the lunar cycle—not the shape, but the fraction of the cycle completed."
+          },
+          {
+            "q": "When is the best time to see it?",
+            "a": "It’s highest in the sky around sunset, making the early evening perfect for observation."
+          }
+        ]
+      },
+      "waxingGibbous": {
+        "emoji": "🌔",
+        "name": "Waxing Gibbous",
+        "desc": "51–99% illuminated",
+        "info": "High in eastern sky before midnight; approaching fullness.",
+        "history": "Medieval astrologers watched Waxing Gibbous to refine harvest timing; in Celtic lore it was the “great mother’s swell” used for blessing milking herds.",
+        "spiritual": "A phase of refinement—do a “progress audit” on your New Moon goals. Rituals include moonlit journaling and crystal grids to fine-tune your path.",
+        "astronomy": "Spans ~7–13 days after New Moon, illumination from ~51% up to ~99%. Visible afternoon into evening; terminator moves eastward across the lunar surface.",
+        "faqs": [
+          {
+            "q": "What does “gibbous” mean?",
+            "a": "“Gibbous” comes from Latin for “hump”—it signifies more than half illuminated but not yet full."
+          },
+          {
+            "q": "Energy feels intense—why?",
+            "a": "The growing illumination mirrors a build-up toward culmination; mentally you may feel heightened creativity or tension."
+          }
+        ]
+      },
+      "fullMoon": {
+        "emoji": "🌕",
+        "name": "Full Moon",
+        "desc": "100% illuminated",
+        "info": "Rises at sunset, sets at sunrise; brightest night of cycle.",
+        "history": "Harvest Moon festivals in Europe, the Native American “Corn Moon,” and Vesak in Buddhism all celebrate fullness. Ancient Greeks held “Kūrios Selēnē” dances honoring the light of the goddess.",
+        "spiritual": "A climax of release and illumination—popular rituals are moonlit baths with sea salt, writing what you need to let go of, then burning it. People gather in “moon circles” worldwide.",
+        "astronomy": "Opposition to the Sun, 100% lit. Rises at sunset, sets at sunrise. If near lunar node, a partial or total lunar eclipse may occur.",
+        "faqs": [
+          {
+            "q": "When is the next Full Moon?",
+            "a": "You can check any lunar calendar or sky-watching app; typically it recurs every 29.5 days."
+          },
+          {
+            "q": "Full Moon names—why so many?",
+            "a": "Folk names like “Strawberry” or “Hunter’s” track seasonal events—vital markers in agrarian calendars worldwide."
+          }
+        ]
+      },
+      "waningGibbous": {
+        "emoji": "🌖",
+        "name": "Waning Gibbous",
+        "desc": "99–51% illuminated",
+        "info": "Visible late at night through dawn; illumination decreasing.",
+        "history": "Egyptian priests offered libations to Isis in this phase; Japanese farmers practiced “tsuki-mi” moon-viewing of the waning glow for harvest thanks.",
+        "spiritual": "A time of gratitude—rituals include “thank-you” journaling and sharing blessings in community. Energetically you integrate lessons rather than push forward.",
+        "astronomy": "Illumination drops from ~99% to ~51%. Rises after sunset, remains visible through the night into the morning.",
+        "faqs": [
+          {
+            "q": "What is earthshine?",
+            "a": "A faint glow on the dark portion of the Moon caused by sunlight reflected off Earth—best seen in early waning stages."
+          },
+          {
+            "q": "How long does Waning Gibbous last?",
+            "a": "About 7 days, as illumination falls from nearly full (99%) down to about half (51%)."
+          }
+        ]
+      },
+      "lastQuarter": {
+        "emoji": "🌗",
+        "name": "Last Quarter",
+        "desc": "50% illuminated",
+        "info": "Rises at midnight, sets at noon; half-lit opposite first quarter.",
+        "history": "Dubbed “Third Quarter” by astronomers, many pagan paths honor the Crone archetype here, symbolizing wisdom and the cycle’s closure.",
+        "spiritual": "A sovereign pause—rituals often involve writing regrets, then ceremonially discarding them (burying or releasing to water) to clear karmic slate.",
+        "astronomy": "Occurs at ~90° elongation past opposition; half the disk lit on the opposite side of First Quarter.",
+        "faqs": [
+          {
+            "q": "What does “Last Quarter” mean?",
+            "a": "It signifies three-quarters through the cycle, with exactly half the Moon lit on the opposite side of First Quarter."
+          },
+          {
+            "q": "When is the next New Moon?",
+            "a": "Roughly 7 days after Last Quarter, the cycle begins anew."
+          }
+        ]
+      },
+      "waningCrescent": {
+        "emoji": "🌘",
+        "name": "Waning Crescent",
+        "desc": "49–1% illuminated",
+        "info": "Visible in eastern pre-dawn sky; waning toward new moon.",
+        "history": "Called the “Dark Moon” in folk agriculture, it marked final harvests and soil rest. In Western mystery schools, it was a time of deep inner work.",
+        "spiritual": "Ultimate closure—dark moon ceremonies include silent retreats, shadow-work journaling, and tarot readings to face endings.",
+        "astronomy": "Visible 26–29 days into the cycle; illumination shrinks from ~49% to 0%. Best seen low in the east just before dawn.",
+        "faqs": [
+          {
+            "q": "What’s the “Dark Moon”?",
+            "a": "It’s the final visible crescent before conjunction; the rest of the month is in darkness until the New Moon."
+          },
+          {
+            "q": "How long does Waning Crescent last?",
+            "a": "Typically 3–4 days before the New Moon, as illumination shrinks from about 25% to 0%."
+          }
+        ]
+      }
+    }
+  },
+  "footer": "© {{year}} Celestia. All rights reserved.",
+  "contact": "Contact me"
+
+}
